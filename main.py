@@ -2,9 +2,15 @@
 # Project name: Human Regulation Model
 # author: Sihwan (s0metimes), Geon (zkdlu)
 
+from view import main_view
+
+
+def program_start():
+    main_view.show()
+
 
 def main():
-    print("Hello World!")
+    program_start()
     # start
     # |
     # model parameters (input values)
