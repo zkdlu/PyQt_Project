@@ -2,7 +2,6 @@ import sys
 from PyQt5 import uic
 from PyQt5.QtWidgets import *
 from view import *
-from view import pre_conditioning_view, export_view, body_profile_view
 
 form_class = uic.loadUiType("view/ui/main_view.ui")[0]
 
