@@ -20,6 +20,15 @@ class MainView(QMainWindow, form_class):
         self.body_profile_window = body_profile_view.BodyProfileView()
         self.actionBody_profile.triggered.connect(self.body_profile_window.show)
 
+        self.clothing_property_window = clothing_property_view.ClothingPropertyView()
+        self.actionClothing_property.triggered.connect(self.clothing_property_window.show)
+
+        self.experiments_window = experiments_view.ExperimentsView()
+        self.actionExperiment.triggered.connect(self.experiments_window.show)
+
+        self.tsv_csv_profile_window = tsv_csv_profile_view.TsvCsvProfileView()
+        self.actionTSV_CSV_profile.triggered.connect(self.tsv_csv_profile_window.show)
+
 
 def show():
     app = QApplication(sys.argv)
