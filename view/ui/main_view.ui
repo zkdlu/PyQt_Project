@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Human Physiological model - [HMC]</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>human-body-standing-black-icon.ico</normaloff>human-body-standing-black-icon.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Graph</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Data</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuSave_File">
+     <property name="title">
+      <string>Save File</string>
+     </property>
+     <addaction name="actionSkin_temperature"/>
+     <addaction name="actionPST"/>
+     <addaction name="actionCSV"/>
+    </widget>
+    <addaction name="menuSave_File"/>
+    <addaction name="actionExport"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionBody_profile"/>
+    <addaction name="actionTSV_CSV_profile"/>
+   </widget>
+   <widget class="QMenu" name="menuSetting">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+    <widget class="QMenu" name="menuSimulation_setting">
+     <property name="title">
+      <string>Simulation setting</string>
+     </property>
+     <widget class="QMenu" name="menuEnvironment">
+      <property name="title">
+       <string>Environment</string>
+      </property>
+      <addaction name="actionPre_conditioning"/>
+      <addaction name="actionExperiment"/>
+     </widget>
+     <addaction name="actionClothing_property"/>
+     <addaction name="menuEnvironment"/>
+    </widget>
+    <addaction name="menuSimulation_setting"/>
+   </widget>
+   <widget class="QMenu" name="menuSimulation">
+    <property name="title">
+     <string>Simulation</string>
+    </property>
+    <addaction name="actionStady_state"/>
+    <addaction name="actionUnstady_state"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuView"/>
+   <addaction name="menuSetting"/>
+   <addaction name="menuSimulation"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExport">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actionSkin_temperature">
+   <property name="text">
+    <string>Skin temperature</string>
+   </property>
+  </action>
+  <action name="actionPST">
+   <property name="text">
+    <string>TSV</string>
+   </property>
+  </action>
+  <action name="actionCSV">
+   <property name="text">
+    <string>CSV</string>
+   </property>
+  </action>
+  <action name="actionBody_profile">
+   <property name="text">
+    <string>Body profile</string>
+   </property>
+  </action>
+  <action name="actionTSV_CSV_profile">
+   <property name="text">
+    <string>TSV CSV profile</string>
+   </property>
+  </action>
+  <action name="actionClothing_property">
+   <property name="text">
+    <string>Clothing property</string>
+   </property>
+  </action>
+  <action name="actionPre_conditioning">
+   <property name="text">
+    <string>Pre-conditioning</string>
+   </property>
+  </action>
+  <action name="actionExperiment">
+   <property name="text">
+    <string>Experiment</string>
+   </property>
+  </action>
+  <action name="actionStady_state">
+   <property name="text">
+    <string>Steady state</string>
+   </property>
+  </action>
+  <action name="actionUnstady_state">
+   <property name="text">
+    <string>Unsteady state</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,4 +1,7 @@
 .idea
 .DS_Store
 
-.idea
+# created by virtualenv automatically
+/Lib
+/Scripts
+pyvenv.cfg
