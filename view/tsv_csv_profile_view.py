@@ -16,17 +16,15 @@ class TsvCsvProfileView(QMainWindow, form_class):
         self.comboBox_comfort_sensation.currentTextChanged.connect(self.on_comfort_sensation)
 
     def on_skin_set_temperature(self, value):
-        my_util.set_table(self, self.comboBox_skin_set_temperature,
-                          self.table_skin_set_temperature, value)
+        my_util.set_table_with_combobox(self, self.comboBox_skin_set_temperature,
+                                        self.table_skin_set_temperature, value)
 
     def on_overall_factor(self, value):
-        my_util.set_table(self, self.comboBox_overall_factor,
-                          self.table_overall_factor, value)
+        my_util.set_table_with_combobox(self, self.comboBox_overall_factor,self.table_overall_factor, value)
 
     def on_sensation_coefficient(self, value):
-        my_util.set_table(self, self.comboBox_sensation_coefficient,
-                          self.table_sensation_coefficient, value)
+        my_util.set_table_with_combobox(self, self.comboBox_sensation_coefficient,self.table_sensation_coefficient, value)
 
     def on_comfort_sensation(self, value):
-        my_util.set_table(self, self.comboBox_comfort_sensation,
-                          self.table_comfort_sensation, value)
+        my_util.set_table_with_combobox(self, self.comboBox_comfort_sensation,
+                                        self.table_comfort_sensation, value)

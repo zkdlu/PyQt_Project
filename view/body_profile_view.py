@@ -27,49 +27,49 @@ class BodyProfileView(QMainWindow, form_class):
         self.comboBox_radiation.currentTextChanged.connect(self.on_radiation)
 
     def on_body_area_weight(self, value):
-        my_util.set_table(self, self.comboBox_body_area_weight,
-                          self.table_body_area_weight, value)
+        my_util.set_table_with_combobox(self, self.comboBox_body_area_weight,
+                                        self.table_body_area_weight, value)
 
     def on_heat_capacity(self, value):
-        my_util.set_table(self, self.comboBox_heat_capacity,
-                          self.table_heat_capacity, value)
+        my_util.set_table_with_combobox(self, self.comboBox_heat_capacity,
+                                        self.table_heat_capacity, value)
 
     def on_metabolic_rate(self, value):
-        my_util.set_table(self, self.comboBox_metabolic_rate,
-                          self.table_metabolic_rate, value)
+        my_util.set_table_with_combobox(self, self.comboBox_metabolic_rate,
+                                        self.table_metabolic_rate, value)
 
     def on_heat_production_rate(self, value):
-        my_util.set_table(self, self.comboBox_heat_production_rate,
-                          self.table_heat_production_rate, value)
+        my_util.set_table_with_combobox(self, self.comboBox_heat_production_rate,
+                                        self.table_heat_production_rate, value)
 
     def on_flow_rate(self, value):
-        my_util.set_table(self, self.comboBox_flow_rate,
-                          self.table_flow_rate, value)
+        my_util.set_table_with_combobox(self, self.comboBox_flow_rate,
+                                        self.table_flow_rate, value)
 
     def on_set_temperature(self, value):
-        my_util.set_table(self, self.comboBox_set_temperature,
-                          self.table_set_temperature, value)
+        my_util.set_table_with_combobox(self, self.comboBox_set_temperature,
+                                        self.table_set_temperature, value)
 
     def on_weighting_distribution_coefficient(self, value):
-        my_util.set_table(self, self.comboBox_weighting_distribution_coefficient,
-                          self.table_weighting_distribution_coefficient, value)
+        my_util.set_table_with_combobox(self, self.comboBox_weighting_distribution_coefficient,
+                                        self.table_weighting_distribution_coefficient, value)
 
     def on_control_coefficient(self, value):
-        my_util.set_table(self, self.comboBox_control_coefficient,
-                          self.table_control_coefficient, value)
+        my_util.set_table_with_combobox(self, self.comboBox_control_coefficient,
+                                        self.table_control_coefficient, value)
 
     def on_conduction(self, value):
-        my_util.set_table(self, self.comboBox_conduction,
-                          self.table_conduction, value)
+        my_util.set_table_with_combobox(self, self.comboBox_conduction,
+                                        self.table_conduction, value)
 
     def on_nature_convection(self, value):
-        my_util.set_table(self, self.comboBox_nature_convection,
-                          self.table_nature_convection, value)
+        my_util.set_table_with_combobox(self, self.comboBox_nature_convection,
+                                        self.table_nature_convection, value)
 
     def on_forced_convection(self, value):
-        my_util.set_table(self, self.comboBox_forced_convection,
-                          self.table_forced_convection, value)
+        my_util.set_table_with_combobox(self, self.comboBox_forced_convection,
+                                        self.table_forced_convection, value)
 
     def on_radiation(self, value):
-        my_util.set_table(self, self.comboBox_radiation,
-                          self.table_radiation, value)
+        my_util.set_table_with_combobox(self, self.comboBox_radiation,
+                                        self.table_radiation, value)
