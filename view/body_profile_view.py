@@ -1,7 +1,5 @@
-import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
-import csv
 from view import my_util
 
 form_class = uic.loadUiType("view/ui/body_profile_view.ui")[0]
@@ -17,38 +15,61 @@ class BodyProfileView(QMainWindow, form_class):
         self.comboBox_metabolic_rate.currentTextChanged.connect(self.on_metabolic_rate)
         self.comboBox_heat_production_rate.currentTextChanged.connect(self.on_heat_production_rate)
 
+        self.comboBox_flow_rate.currentTextChanged.connect(self.on_flow_rate)
+        self.comboBox_set_temperature.currentTextChanged.connect(self.on_set_temperature)
+        self.comboBox_weighting_distribution_coefficient.currentTextChanged\
+            .connect(self.on_weighting_distribution_coefficient)
+        self.comboBox_control_coefficient.currentTextChanged.connect(self.on_control_coefficient)
+
+        self.comboBox_conduction.currentTextChanged.connect(self.on_conduction)
+        self.comboBox_nature_convection.currentTextChanged.connect(self.on_nature_convection)
+        self.comboBox_forced_convection.currentTextChanged.connect(self.on_forced_convection)
+        self.comboBox_radiation.currentTextChanged.connect(self.on_radiation)
+
     def on_body_area_weight(self, value):
-        my_util.set_table(self, self.comboBox_body_area_weight, self.table_body_area_weight, value)
+        my_util.set_table(self, self.comboBox_body_area_weight,
+                          self.table_body_area_weight, value)
 
     def on_heat_capacity(self, value):
-        my_util.set_table(self, self.comboBox_heat_capacity, self.table_heat_capacity, value)
+        my_util.set_table(self, self.comboBox_heat_capacity,
+                          self.table_heat_capacity, value)
 
     def on_metabolic_rate(self, value):
-        my_util.set_table(self, self.comboBox_metabolic_rate, self.table_metabolic_rate, value)
+        my_util.set_table(self, self.comboBox_metabolic_rate,
+                          self.table_metabolic_rate, value)
 
     def on_heat_production_rate(self, value):
-        my_util.set_table(self, self.comboBox_heat_production_rate, self.table_heat_production_rate, value)
+        my_util.set_table(self, self.comboBox_heat_production_rate,
+                          self.table_heat_production_rate, value)
 
-    def set_table(self, q_combobox, q_table, value):
-        q_combobox.setCurrentIndex(0)
-        table = self.read_csv(value)
+    def on_flow_rate(self, value):
+        my_util.set_table(self, self.comboBox_flow_rate,
+                          self.table_flow_rate, value)
 
-        if table:
-            csv_row_count = len(table) - 1
-            q_table.setRowCount(csv_row_count)
+    def on_set_temperature(self, value):
+        my_util.set_table(self, self.comboBox_set_temperature,
+                          self.table_set_temperature, value)
 
-            for y, line in enumerate(table):
-                for x, item in enumerate(line):
-                    q_table.setItem(y, x, QTableWidgetItem(item))
+    def on_weighting_distribution_coefficient(self, value):
+        my_util.set_table(self, self.comboBox_weighting_distribution_coefficient,
+                          self.table_weighting_distribution_coefficient, value)
 
-    def read_csv(self, value):
-        if value == 'Custom':
-            file_name = QFileDialog.getOpenFileName(self, 'Open file', './')
+    def on_control_coefficient(self, value):
+        my_util.set_table(self, self.comboBox_control_coefficient,
+                          self.table_control_coefficient, value)
 
-            if file_name[0]:
-                with open(file_name[0], 'r') as f:
-                    rdr = csv.reader(f)
-                    next(rdr)
+    def on_conduction(self, value):
+        my_util.set_table(self, self.comboBox_conduction,
+                          self.table_conduction, value)
 
-                    table = list(rdr)
-                    return table
+    def on_nature_convection(self, value):
+        my_util.set_table(self, self.comboBox_nature_convection,
+                          self.table_nature_convection, value)
+
+    def on_forced_convection(self, value):
+        my_util.set_table(self, self.comboBox_forced_convection,
+                          self.table_forced_convection, value)
+
+    def on_radiation(self, value):
+        my_util.set_table(self, self.comboBox_radiation,
+                          self.table_radiation, value)

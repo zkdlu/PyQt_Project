@@ -22,7 +22,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -52,7 +52,7 @@
             </widget>
            </item>
            <item row="4" column="0" colspan="3">
-            <widget class="QTableWidget" name="tableWidget">
+            <widget class="QTableWidget" name="table_skin_set_temperature">
              <column>
               <property name="text">
                <string>Segment</string>
@@ -71,7 +71,7 @@
             </widget>
            </item>
            <item row="1" column="1" colspan="2">
-            <widget class="QComboBox" name="comboBox">
+            <widget class="QComboBox" name="comboBox_skin_set_temperature">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                <horstretch>0</horstretch>
@@ -80,12 +80,12 @@
              </property>
              <item>
               <property name="text">
-               <string>새 항목</string>
+               <string/>
               </property>
              </item>
              <item>
               <property name="text">
-               <string>새 항목</string>
+               <string>Custom</string>
               </property>
              </item>
             </widget>
@@ -123,7 +123,7 @@
             </widget>
            </item>
            <item row="4" column="0" colspan="3">
-            <widget class="QTableWidget" name="tableWidget_2">
+            <widget class="QTableWidget" name="table_overall_factor">
              <column>
               <property name="text">
                <string>Segment</string>
@@ -142,7 +142,7 @@
             </widget>
            </item>
            <item row="1" column="1" colspan="2">
-            <widget class="QComboBox" name="comboBox_2">
+            <widget class="QComboBox" name="comboBox_overall_factor">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                <horstretch>0</horstretch>
@@ -151,12 +151,12 @@
              </property>
              <item>
               <property name="text">
-               <string>새 항목</string>
+               <string/>
               </property>
              </item>
              <item>
               <property name="text">
-               <string>새 항목</string>
+               <string>Custom</string>
               </property>
              </item>
             </widget>
@@ -194,7 +194,7 @@
             </widget>
            </item>
            <item row="4" column="0" colspan="3">
-            <widget class="QTableWidget" name="tableWidget_3">
+            <widget class="QTableWidget" name="table_sensation_coefficient">
              <column>
               <property name="text">
                <string>Segment</string>
@@ -233,7 +233,7 @@
             </widget>
            </item>
            <item row="1" column="1" colspan="2">
-            <widget class="QComboBox" name="comboBox_3">
+            <widget class="QComboBox" name="comboBox_sensation_coefficient">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                <horstretch>0</horstretch>
@@ -242,12 +242,12 @@
              </property>
              <item>
               <property name="text">
-               <string>새 항목</string>
+               <string/>
               </property>
              </item>
              <item>
               <property name="text">
-               <string>새 항목</string>
+               <string>Custom</string>
               </property>
              </item>
             </widget>
@@ -285,7 +285,7 @@
             </widget>
            </item>
            <item row="4" column="0" colspan="3">
-            <widget class="QTableWidget" name="tableWidget_4">
+            <widget class="QTableWidget" name="table_comfort_sensation">
              <column>
               <property name="text">
                <string>Segment</string>
@@ -329,7 +329,7 @@
             </widget>
            </item>
            <item row="1" column="1" colspan="2">
-            <widget class="QComboBox" name="comboBox_4">
+            <widget class="QComboBox" name="comboBox_comfort_sensation">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                <horstretch>0</horstretch>
@@ -338,12 +338,12 @@
              </property>
              <item>
               <property name="text">
-               <string>새 항목</string>
+               <string/>
               </property>
              </item>
              <item>
               <property name="text">
-               <string>새 항목</string>
+               <string>Custom</string>
               </property>
              </item>
             </widget>

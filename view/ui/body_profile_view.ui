@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>637</width>
+    <width>598</width>
     <height>518</height>
    </rect>
   </property>
@@ -22,7 +22,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>4</number>
+       <number>6</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -668,6 +668,16 @@
                     <verstretch>0</verstretch>
                    </sizepolicy>
                   </property>
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Custom</string>
+                   </property>
+                  </item>
                  </widget>
                 </item>
                </layout>
@@ -766,13 +776,23 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QComboBox" name="comboBox_10">
+                 <widget class="QComboBox" name="comboBox_weighting_distribution_coefficient">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
                   </property>
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Custom</string>
+                   </property>
+                  </item>
                  </widget>
                 </item>
                </layout>
@@ -788,7 +808,7 @@
                </property>
                <layout class="QGridLayout" name="gridLayout_17">
                 <item row="0" column="0">
-                 <widget class="QTableWidget" name="tableWidget_10">
+                 <widget class="QTableWidget" name="table_weighting_distribution_coefficient">
                   <column>
                    <property name="text">
                     <string>Segment</string>
@@ -871,13 +891,23 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QComboBox" name="comboBox_11">
+                 <widget class="QComboBox" name="comboBox_control_coefficient">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
                   </property>
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Custom</string>
+                   </property>
+                  </item>
                  </widget>
                 </item>
                </layout>
@@ -893,7 +923,7 @@
                </property>
                <layout class="QGridLayout" name="gridLayout_19">
                 <item row="0" column="0">
-                 <widget class="QTableWidget" name="tableWidget_11">
+                 <widget class="QTableWidget" name="table_control_coefficient">
                   <column>
                    <property name="text">
                     <string>Segment</string>
@@ -934,11 +964,11 @@
         <item>
          <widget class="QTabWidget" name="tabWidget_3">
           <property name="currentIndex">
-           <number>1</number>
+           <number>2</number>
           </property>
           <widget class="QWidget" name="tab_11">
            <attribute name="title">
-            <string>Conductino between node</string>
+            <string>Conduction between node</string>
            </attribute>
            <layout class="QVBoxLayout" name="verticalLayout_14">
             <item>
@@ -981,13 +1011,23 @@
                      </widget>
                     </item>
                     <item>
-                     <widget class="QComboBox" name="comboBox_12">
+                     <widget class="QComboBox" name="comboBox_conduction">
                       <property name="sizePolicy">
                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                         <horstretch>0</horstretch>
                         <verstretch>0</verstretch>
                        </sizepolicy>
                       </property>
+                      <item>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Custom</string>
+                       </property>
+                      </item>
                      </widget>
                     </item>
                    </layout>
@@ -1003,7 +1043,7 @@
                    </property>
                    <layout class="QGridLayout" name="gridLayout_21">
                     <item row="0" column="0">
-                     <widget class="QTableWidget" name="tableWidget_12">
+                     <widget class="QTableWidget" name="table_conduction">
                       <column>
                        <property name="text">
                         <string>Segment</string>
@@ -1095,13 +1135,23 @@
                             </widget>
                            </item>
                            <item>
-                            <widget class="QComboBox" name="comboBox_14">
+                            <widget class="QComboBox" name="comboBox_nature_convection">
                              <property name="sizePolicy">
                               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                                <horstretch>0</horstretch>
                                <verstretch>0</verstretch>
                               </sizepolicy>
                              </property>
+                             <item>
+                              <property name="text">
+                               <string/>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Custom</string>
+                              </property>
+                             </item>
                             </widget>
                            </item>
                           </layout>
@@ -1117,7 +1167,7 @@
                           </property>
                           <layout class="QGridLayout" name="gridLayout_27">
                            <item row="0" column="0">
-                            <widget class="QTableWidget" name="tableWidget_14">
+                            <widget class="QTableWidget" name="table_nature_convection">
                              <column>
                               <property name="text">
                                <string>Segment</string>
@@ -1190,13 +1240,23 @@
                             </widget>
                            </item>
                            <item>
-                            <widget class="QComboBox" name="comboBox_15">
+                            <widget class="QComboBox" name="comboBox_forced_convection">
                              <property name="sizePolicy">
                               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                                <horstretch>0</horstretch>
                                <verstretch>0</verstretch>
                               </sizepolicy>
                              </property>
+                             <item>
+                              <property name="text">
+                               <string/>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>Custom</string>
+                              </property>
+                             </item>
                             </widget>
                            </item>
                           </layout>
@@ -1212,7 +1272,7 @@
                           </property>
                           <layout class="QGridLayout" name="gridLayout_30">
                            <item row="0" column="0">
-                            <widget class="QTableWidget" name="tableWidget_15">
+                            <widget class="QTableWidget" name="table_forced_convection">
                              <column>
                               <property name="text">
                                <string>Segment</string>
@@ -1302,13 +1362,23 @@
                      </widget>
                     </item>
                     <item>
-                     <widget class="QComboBox" name="comboBox_13">
+                     <widget class="QComboBox" name="comboBox_radiation">
                       <property name="sizePolicy">
                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                         <horstretch>0</horstretch>
                         <verstretch>0</verstretch>
                        </sizepolicy>
                       </property>
+                      <item>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Custom</string>
+                       </property>
+                      </item>
                      </widget>
                     </item>
                    </layout>
@@ -1324,7 +1394,7 @@
                    </property>
                    <layout class="QGridLayout" name="gridLayout_24">
                     <item row="0" column="0">
-                     <widget class="QTableWidget" name="tableWidget_13">
+                     <widget class="QTableWidget" name="table_radiation">
                       <column>
                        <property name="text">
                         <string>Segment</string>
@@ -1383,7 +1453,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>637</width>
+     <width>598</width>
      <height>21</height>
     </rect>
    </property>

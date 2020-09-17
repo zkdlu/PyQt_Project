@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e4cd70ef-b52d-4f7d-afb4-42cdce825ae4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/body_profile_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/body_profile_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/ui/body_profile_view.ui" beforeDir="false" afterPath="$PROJECT_DIR$/view/ui/body_profile_view.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/ui/export_view.ui" beforeDir="false" afterPath="$PROJECT_DIR$/view/ui/export_view.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/ui/tsv_csv_profile_view.ui" beforeDir="false" afterPath="$PROJECT_DIR$/view/ui/tsv_csv_profile_view.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,5 +100,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599809916963" />
+    <state x="1018" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600323635728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1018" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600323635728" />
   </component>
 </project>
