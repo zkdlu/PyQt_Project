@@ -34,10 +34,12 @@ def set_table_with_combobox(self, q_combobox, q_table, value):
 def read_csv(self):
     file_name = QFileDialog.getOpenFileName(self, 'Open file', './', 'csv(*.csv)')
 
-    if file_name[0]:
+    if file_name != ('', ''):
         with open(file_name[0], 'r') as f:
             rdr = csv.reader(f)
             next(rdr)
 
             table = list(rdr)
             return file_name[0], table
+
+    return '', ''

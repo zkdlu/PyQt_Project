@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e4cd70ef-b52d-4f7d-afb4-42cdce825ae4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/body_profile_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/body_profile_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/clothing_property_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/clothing_property_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/experiments_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/experiments_view.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/my_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/my_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/pre_conditioning_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/pre_conditioning_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/tsv_csv_profile_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/tsv_csv_profile_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/ui/clothing_property_view.ui" beforeDir="false" afterPath="$PROJECT_DIR$/view/ui/clothing_property_view.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/ui/experiments_view.ui" beforeDir="false" afterPath="$PROJECT_DIR$/view/ui/experiments_view.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/ui/pre_conditioning_view.ui" beforeDir="false" afterPath="$PROJECT_DIR$/view/ui/pre_conditioning_view.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
