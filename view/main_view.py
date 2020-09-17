@@ -29,6 +29,11 @@ class MainView(QMainWindow, form_class):
         self.tsv_csv_profile_window = tsv_csv_profile_view.TsvCsvProfileView()
         self.actionTSV_CSV_profile.triggered.connect(self.tsv_csv_profile_window.show)
 
+        self.btn_test.clicked.connect(self.test)
+
+    def test(self):
+        print(self.body_profile_window['BodyAreaAndWeight']['Head'])
+
 
 def show():
     app = QApplication(sys.argv)

@@ -2,6 +2,22 @@ import csv
 from PyQt5.QtWidgets import *
 
 
+def get_dic_from_table(dic, q_table):
+    headerCount = q_table.columnCount()
+    rowCount = q_table.rowCount()
+
+    for y in range(0, rowCount):
+        cellFirst = q_table.item(y, 0).text()
+        dic[cellFirst] = {}
+
+        for x in range(1, headerCount):
+            headerText = q_table.horizontalHeaderItem(x).text()
+            cell = q_table.item(y, x).text()
+            dic[cellFirst][headerText] = cell
+
+    return dic
+
+
 def set_table_with_txt(self, q_textbox, q_table):
     file_name, table = read_csv(self)
 
