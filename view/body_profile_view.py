@@ -29,6 +29,9 @@ class BodyProfileView(QMainWindow, form_class):
 
         self.setupUi(self)
 
+        self.btn_ok.clicked.connect(self.hide)
+        self.btn_cancel.clicked.connect(self.hide)
+
         self.comboBox_body_area_weight.currentTextChanged.connect(self.on_body_area_weight)
         self.comboBox_heat_capacity.currentTextChanged.connect(self.on_heat_capacity)
         self.comboBox_metabolic_rate.currentTextChanged.connect(self.on_metabolic_rate)
