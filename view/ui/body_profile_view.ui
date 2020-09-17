@@ -22,7 +22,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>7</number>
+       <number>4</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -43,7 +43,7 @@
              <item>
               <widget class="QFrame" name="frame_4">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -69,7 +69,24 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QComboBox" name="comboBox_2"/>
+                 <widget class="QComboBox" name="comboBox_body_area_weight">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Custom</string>
+                   </property>
+                  </item>
+                 </widget>
                 </item>
                </layout>
               </widget>
@@ -84,7 +101,7 @@
                </property>
                <layout class="QGridLayout" name="gridLayout_3">
                 <item row="0" column="0">
-                 <widget class="QTableWidget" name="tableWidget_2">
+                 <widget class="QTableWidget" name="table_body_area_weight">
                   <column>
                    <property name="text">
                     <string>Segment</string>
@@ -131,7 +148,7 @@
              <item>
               <widget class="QFrame" name="frame_9">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -157,13 +174,23 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QComboBox" name="comboBox_4">
+                 <widget class="QComboBox" name="comboBox_heat_capacity">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
                   </property>
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Custom</string>
+                   </property>
+                  </item>
                  </widget>
                 </item>
                </layout>
@@ -179,7 +206,7 @@
                </property>
                <layout class="QGridLayout" name="gridLayout_7">
                 <item row="0" column="0">
-                 <widget class="QTableWidget" name="tableWidget_4">
+                 <widget class="QTableWidget" name="table_heat_capacity">
                   <column>
                    <property name="text">
                     <string>Segment</string>
@@ -272,13 +299,23 @@
                      </widget>
                     </item>
                     <item>
-                     <widget class="QComboBox" name="comboBox_5">
+                     <widget class="QComboBox" name="comboBox_metabolic_rate">
                       <property name="sizePolicy">
                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                         <horstretch>0</horstretch>
                         <verstretch>0</verstretch>
                        </sizepolicy>
                       </property>
+                      <item>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Custom</string>
+                       </property>
+                      </item>
                      </widget>
                     </item>
                     <item>
@@ -317,7 +354,7 @@
                    </property>
                    <layout class="QGridLayout" name="gridLayout_8">
                     <item row="0" column="0">
-                     <widget class="QTableWidget" name="tableWidget_5">
+                     <widget class="QTableWidget" name="table_metabolic_rate">
                       <column>
                        <property name="text">
                         <string>Segment</string>
@@ -400,13 +437,23 @@
                      </widget>
                     </item>
                     <item>
-                     <widget class="QComboBox" name="comboBox_6">
+                     <widget class="QComboBox" name="comboBox_heat_production_rate">
                       <property name="sizePolicy">
                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                         <horstretch>0</horstretch>
                         <verstretch>0</verstretch>
                        </sizepolicy>
                       </property>
+                      <item>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Custom</string>
+                       </property>
+                      </item>
                      </widget>
                     </item>
                    </layout>
@@ -422,7 +469,7 @@
                    </property>
                    <layout class="QGridLayout" name="gridLayout_10">
                     <item row="0" column="0">
-                     <widget class="QTableWidget" name="tableWidget_6">
+                     <widget class="QTableWidget" name="table_heat_production_rate">
                       <column>
                        <property name="text">
                         <string>Segment</string>
@@ -499,13 +546,23 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QComboBox" name="comboBox_8">
+                 <widget class="QComboBox" name="comboBox_flow_rate">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
                   </property>
+                  <item>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Custom</string>
+                   </property>
+                  </item>
                  </widget>
                 </item>
                </layout>
@@ -521,7 +578,7 @@
                </property>
                <layout class="QGridLayout" name="gridLayout_12">
                 <item row="0" column="0">
-                 <widget class="QTableWidget" name="tableWidget_8">
+                 <widget class="QTableWidget" name="table_flow_rate">
                   <column>
                    <property name="text">
                     <string>Segment</string>
@@ -604,7 +661,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QComboBox" name="comboBox_9">
+                 <widget class="QComboBox" name="comboBox_set_temperature">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -626,7 +683,7 @@
                </property>
                <layout class="QGridLayout" name="gridLayout_15">
                 <item row="0" column="0">
-                 <widget class="QTableWidget" name="tableWidget_9">
+                 <widget class="QTableWidget" name="table_set_temperature">
                   <column>
                    <property name="text">
                     <string>Segment</string>

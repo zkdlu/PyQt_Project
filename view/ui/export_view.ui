@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>731</width>
-    <height>545</height>
+    <width>373</width>
+    <height>430</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -34,7 +34,31 @@
           <widget class="QListWidget" name="listWidget_3">
            <item>
             <property name="text">
-             <string>1</string>
+             <string>Respiration</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Evaporation</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Perspiration</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Shivering</string>
             </property>
             <property name="checkState">
              <enum>Unchecked</enum>
@@ -59,7 +83,15 @@
           <widget class="QListWidget" name="listWidget_4">
            <item>
             <property name="text">
-             <string>1</string>
+             <string>Thermal sensation</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Comfort sensation</string>
             </property>
             <property name="checkState">
              <enum>Unchecked</enum>
@@ -110,7 +142,31 @@
           <widget class="QListWidget" name="listWidget_2">
            <item>
             <property name="text">
-             <string>1</string>
+             <string>Core temerature</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Muscle temperature</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Fat temperature</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Skin temperature</string>
             </property>
             <property name="checkState">
              <enum>Unchecked</enum>
@@ -122,7 +178,39 @@
           <widget class="QListWidget" name="listWidget">
            <item>
             <property name="text">
-             <string>1</string>
+             <string>Core layer</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Muscle layer</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Fat layer</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Skin layer</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Central blood</string>
             </property>
             <property name="checkState">
              <enum>Unchecked</enum>
@@ -160,7 +248,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>731</width>
+     <width>373</width>
      <height>21</height>
     </rect>
    </property>

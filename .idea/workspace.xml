@@ -5,8 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/body_profile_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/body_profile_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/main_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/main_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/ui/body_profile.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/ui/body_profile_view.ui" beforeDir="false" afterPath="$PROJECT_DIR$/view/ui/body_profile_view.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/ui/export_view.ui" beforeDir="false" afterPath="$PROJECT_DIR$/view/ui/export_view.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1030" y="202" key="#Inspections" timestamp="1600306686487">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1030" y="202" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1600306686487" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599808528662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
