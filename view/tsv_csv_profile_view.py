@@ -10,6 +10,9 @@ class TsvCsvProfileView(QMainWindow, form_class):
         super().__init__()
         self.setupUi(self)
 
+        self.btn_ok.clicked.connect(self.hide)
+        self.btn_cancel.clicked.connect(self.hide)
+
         self.comboBox_skin_set_temperature.currentTextChanged.connect(self.on_skin_set_temperature)
         self.comboBox_overall_factor.currentTextChanged.connect(self.on_overall_factor)
         self.comboBox_sensation_coefficient.currentTextChanged.connect(self.on_sensation_coefficient)

@@ -11,6 +11,9 @@ class ExperimentsView(QMainWindow, form_class):
         super().__init__()
         self.setupUi(self)
 
+        self.btn_ok.clicked.connect(self.hide)
+        self.btn_cancel.clicked.connect(self.hide)
+
         self.btn_steady_file.clicked.connect(self.on_select_file)
 
     def on_select_file(self):
