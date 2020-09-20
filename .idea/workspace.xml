@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4cd70ef-b52d-4f7d-afb4-42cdce825ae4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/clothing_property_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/clothing_property_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/experiments_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/experiments_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/pre_conditioning_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/pre_conditioning_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/tsv_csv_profile_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/tsv_csv_profile_view.py" afterDir="false" />
-    </list>
+    <list default="true" id="e4cd70ef-b52d-4f7d-afb4-42cdce825ae4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
